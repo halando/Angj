@@ -7,4 +7,9 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'dragdrop';
+  szin = "orange"
+  
+  szinValasztas(event:string){
+    this.szin = event;
+  }
 }
